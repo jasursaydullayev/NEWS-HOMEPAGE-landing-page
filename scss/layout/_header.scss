@@ -1,0 +1,25 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    padding-top: 9.7rem;
+}
+
+.header__list{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.header__link{
+    transition: 0.4s;
+    position: relative;
+    color: $gunmetal-grey-color;
+    &:hover{
+        color: #F15D51;
+    }
+}
+.header__nav__toggler{
+    display: none;
+}
+   
