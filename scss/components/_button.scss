@@ -13,4 +13,8 @@
         color: $light-vermillion;
         border: 0.2rem solid $light-vermillion;
     }
+    &:active{
+        background-color: black;
+        color: $Almost-White;
+    }
 }

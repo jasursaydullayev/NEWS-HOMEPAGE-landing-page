@@ -396,6 +396,32 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .header__list {
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    min-width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+  .header__container {
+    margin-top: -6.9rem;
+    margin-bottom: -3.1rem;
+  }
+  .header__container ul {
+    display: none;
+  }
+  .header__nav__toggler {
+    display: block;
+    margin-left: 25.8rem;
+  }
+}
 .main-wrapper {
   display: flex;
   margin-top: 6.1rem;
@@ -485,6 +511,48 @@ body {
   height: 5.2rem;
 }
 
+@media screen and (max-width: 555px) {
+  .main-wrapper {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 455px) {
+  .main__footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main__container__future {
+    margin-bottom: 6.4rem;
+  }
+  .main__container__future img {
+    width: 34.3rem;
+    height: 30rem;
+  }
+  .future-title-and-text {
+    flex-direction: column;
+  }
+  .future-title-and-text h1 {
+    width: 34.2rem;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 1.6rem;
+  }
+  .future-title-and-text p {
+    margin-bottom: 3.7rem;
+    width: 35rem;
+  }
+  .main__footer__blogs {
+    margin-bottom: 3.2rem;
+  }
+  .main-wrapper {
+    flex-direction: column;
+  }
+  .main__footer {
+    flex-direction: column;
+  }
+}
 .main__btn {
   width: 18.5rem;
   height: 4.8rem;
@@ -500,4 +568,8 @@ body {
   background-color: #FFFDFA;
   color: #F15D51;
   border: 0.2rem solid #F15D51;
+}
+.main__btn:active {
+  background-color: black;
+  color: #FFFDFA;
 }/*# sourceMappingURL=style.css.map */
